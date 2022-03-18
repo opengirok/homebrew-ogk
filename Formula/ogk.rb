@@ -1,9 +1,9 @@
 class Ogk < Formula
   desc "cli tool for open.go.kr"
   homepage "https://github.com/opengirok/ogk"
-  url "https://github.com/opengirok/ogk/releases/latest/download/ogk_1.0.1_macos_amd64.tar.gz"
-  sha256 "47545fe395ec58e47a896da365746b16e5840f8d26030471e472db45edd4bd8c"
-  version "1.0.1"
+  url "https://github.com/opengirok/ogk/releases/latest/download/ogk_1.0.2_macos_amd64.tar.gz"
+  sha256 "af68b66b6475631d2000a378030ab3d5677b6fcba9a029b3a4032c6a98bfafad"
+  version "1.0.2"
 
   def install
     bin.install "ogk"
